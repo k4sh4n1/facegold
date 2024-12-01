@@ -3,7 +3,6 @@
 Avoid permission error based on [this](https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket):
 
 ```bash
-sudo groupadd docker
 sudo usermod -aG docker ${USER}
 ```
 
