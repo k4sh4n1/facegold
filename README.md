@@ -10,6 +10,6 @@ sudo usermod -aG docker ${USER}
 Run containers based on [this](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-docker-compose):
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
