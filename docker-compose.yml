@@ -46,7 +46,7 @@ services:
     networks:
       - app-network
 
-certbot:
+  certbot:
     depends_on:
       - webserver
     image: certbot/certbot
