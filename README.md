@@ -12,4 +12,4 @@ Run containers based on [this](https://www.digitalocean.com/community/tutorials/
 ```bash
 docker-compose up -d
 ```
-i
+
